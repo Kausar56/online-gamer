@@ -49,12 +49,15 @@
 
   .menu{
     width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
   
   }
   .menu a{
     text-decoration: none;
     margin-right: 1.5rem;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     color: #3C354F;
     text-align: center;
     font-family: Work Sans;
@@ -102,10 +105,8 @@
 
 
   .banner-text{
-  
-  
     width: 50%;
-   text-align: center;
+  
   }
 
 
@@ -134,7 +135,14 @@
 
   .font-with-text{
    margin-bottom: 20px;
+ 
+  
   }
+  .font-with-text .svg-pic{
+    width: 16px;
+   
+  }
+
 
   .btn-primary{
    padding:1.2rem 2rem;
@@ -289,7 +297,10 @@
 
 
   /* funny video css style  */
-
+  .funny-class{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
   .funny-video{
 
     text-align: center;
@@ -312,7 +323,7 @@
     -webkit-text-fill-color: transparent;
 
   }
-.funny-video p{
+  .funny-video p{
     color: #534C64;
     text-align: center;
     font-family: Work Sans;
@@ -326,7 +337,6 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 3rem;
-    align-items: center;
     gap: 15px;
 
 }
@@ -356,6 +366,14 @@
     z-index: 2;
     
 }
+
+.img-hover .icon-play{
+  width: 30px;
+   display: flex;
+   height: auto;
+
+}
+
 
 .videos:hover .img-hover{
     display: block;
@@ -715,10 +733,16 @@
 
   }
 
-  .produt-a:hover{
+  .produt-a:hover {
     border: 1px solid red;
     cursor: pointer;
+    
+    
   }
+  .produt-a p:hover{
+    color: red;
+  }
+
   .produt-a p{
     color: #0B0223;
     font-family: Work Sans;
