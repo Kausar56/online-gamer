@@ -450,3 +450,200 @@
     -webkit-text-fill-color: transparent;
 
   }
+
+
+
+
+
+
+  /* play game online area  */
+
+
+  .play-game{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   margin-top: 200px;
+   margin-bottom: 200px;
+  
+  }
+
+
+  .play-game-img{
+  width: 50%;
+  margin: 0 auto;
+
+
+  }
+
+  .play-img-a{
+    position: relative;
+    margin-right: 100px;
+  }
+  .play-img-a img{
+   width: 100%;
+   height: auto;
+ 
+  }
+  .play-img-b{
+    position: absolute;
+    right: 0;
+    width: 318px;
+    height: 365px;
+
+  }
+  .play-img-b img{
+   
+    margin-top: -200px;
+    margin-left: 100px;
+    object-fit: cover;
+    
+    
+   
+  }
+
+
+  .play-game-details{
+  width: 50%;
+  text-align: left;
+  margin-left: 100px;
+    
+  }
+  .play-game-details h1{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+
+    
+  }
+
+
+  .play-game-details p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+    
+  }
+  .play-game-details h1 .gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+
+
+  /* careers area css style start */
+
+  .careers{
+    background-color: #FF42A5;
+    
+  }
+
+
+  .careers-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .careers-text{
+    width: 50%;
+
+  }
+
+
+  .careers-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+
+
+  }
+  .careers-description{
+     color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1.5rem 0rem;
+ 
+
+
+
+  }
+
+
+
+  .careers-post{
+ display: flex;
+ justify-content: space-between;
+ align-items: end;
+ color: #fff;
+    
+  }
+  .careers-post-a{
+
+
+  }
+  .careers-post-a p{
+   margin: 1rem 0rem;
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-weight: 400;
+ 
+
+  }
+
+  .careers-post-b{
+
+
+  }
+  .careers-post-b p{
+   margin: 1rem 0rem;
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-weight: 400;
+
+  }
+
+
+  .careers-img{
+    width: 50%;
+  }
+  .careers-img img{
+    width: 100%
+  }
+
+
+  .see-post{
+    padding: 1rem 3rem;
+    border: none;
+    background-color: #fff;
+    color: #F948B2;
+    text-transform: uppercase;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 100px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .see-post:hover{
+    background-color: #F948B2;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: translateY (width:100%);
+    border: 1px solid #fff;
+  }
