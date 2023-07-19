@@ -68,7 +68,8 @@
 
 
     .video-container{
-        grid-template-columns: (100%,1fr);
+        display: grid;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
 
@@ -100,8 +101,6 @@
 
     .our-product{
         grid-template-columns: repeat(3,1fr);
-        align-items: center;
-
     }
 
     .produt-a{
@@ -109,9 +108,7 @@
     }
 
 
-    .our-products{
-        grid-template-columns: repeat(2,1fr);
-    }
+  
 
 }
 
