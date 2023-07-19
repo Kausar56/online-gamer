@@ -55,5 +55,398 @@
     text-decoration: none;
     margin-right: 1.5rem;
     padding: 1rem 1.5rem;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+ 
+
+  }
+
+
+
+
+  /* Banner section area start here */
+
+
+
+  .banner{
+
+
+  }
+
+  .banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+
+  .banner-text{
+  
+  
+    width: 50%;
+   text-align: center;
+  }
+
+
+  .text-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;  
+
+  }
+
+  .goat{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg,#F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+
+  .font-with-text{
+   margin-bottom: 20px;
+  }
+
+  .btn-primary{
+   padding:1.2rem 2rem;
+   color: #fff;
+   border: none;
+   background-color: #FF42A5;
+   border-radius: 40px;
+   gap: 10px;
+   display: inline-flex;
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-weight: 600;
+   text-transform: uppercase;
+   cursor: pointer;
+
+  }
+
+  .btn-primary:hover{
+    background-color: #4EC5F7;
+    color: #fff;
+  }
+
+  .btn-rogue{
+    padding: 1.2rem 2rem;
+    color: #fff;
+    border: none;
+    background-color: #4EC5F7;
+    border-radius: 40px;
+    gap: 10px;
+    display: inline-flex;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+
+  }
+  .btn-rogue:hover{
+    background-color: #FF42A5;
+    color: #fff;
+  }
+
+
+
+  .banner-img{
+   width: 50%;
+
+  }
+
+  .banner-img img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* Main area css  */
+
+  main{
+  
+    max-width: 1400px;
+    margin: 0 auto;
+  
+
+  }
+
+
+
+
+  /* gamer area css  */
+
+
+  .gamer{
+    background:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 2rem 0rem;
+    
+  }
+
+  .gamer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+
+  }
+
+  .gamer-img{
+     width: 50%;
+  }
+  .gamer-img img{
+     width: 100%;
+  }
+
+
+  .gamer-text{
+    width: 50%;
+    text-align: right;
+  }
+  .gamer-text h1{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  .gamer-text p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 1.5rem 0rem;
+    
+  }
+
+  .gamer-text h2{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px; 
+    margin: 1rem 0rem;
+  }
+  .gamer-text h2 span{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; 
+  }
+
+
+
+  /* main section */
+
+  main{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+
+  /* funny video css style  */
+
+  .funny-video{
+
+    text-align: center;
+    margin: 1rem 0rem;
+  }
+  .funny-video h1{
+
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+
+    
+  }
+
+  .funny-video h1 .gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+.funny-video p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem 0rem;
+
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 3rem;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+
+
+
+.videos{
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+.img-hover{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    opacity:0.8;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    
+}
+
+.videos:hover .img-hover{
+    display: block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    
+}
+
+.video:hover .img-img{
+    transform: scale(1.5);
+}
+
+.img-img{
+    transition: 0.3s ease;
+}
+
+
+.video img{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+ 
+  
+}
+
+.video p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* Download item css style here  */
+
+
+.iteam-download{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.Download-text{
+    width: 50%;
+    
+}
+.Download-text h2{
+    font-family: Work Sans;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px   
+    
+}
+.Download-text p{
+    color: #534C64;
+    margin-top: 15px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;  
+    
+}
+
+
+.download-img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-a{
+    position: relative;
+    margin-left: 100px;
+}
+.img-a img{
+  width: 100%;
+  height: auto;
+}
+.img-b{
+    position:absolute;
+    margin-top: -300px;
+    
+}
+.img-b img{
+    width: 100%;
+
+}
+
+.Download-text h1 .gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
   }
